@@ -1,0 +1,103 @@
+.wheel-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 4rem;
+  border: 1px black solid;
+}
+
+.left-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.right-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.right-grid button {
+  position: absolute;
+}
+
+.options {
+  padding: 10px;
+}
+
+.modal {
+  font-size: 12px;
+  background-color: #ffffff;
+}
+
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+
+.popup-content {
+  width: 400px;
+  background-color: rgba(250, 250, 250);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.input-wrapper {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  height: 2.5rem;
+  padding: 0 15px;
+  box-shadow: 0 0 8px #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  width: 80%;
+  font-size: 1rem;
+}
+
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 5px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+/* img[alt~="roulette-static"] {
+  position: absolute;
+  z-index: 5;
+  /* width: 10%; */
+/* right: 35px;
+  top: 35px; */
+/* content: url("http://imgur.com/SZ8Cm.jpg");} */
+
